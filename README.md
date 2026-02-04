@@ -91,4 +91,3 @@ mvn test
 ## Observações
 - Repositório é in-memory (`ConcurrentHashMap`); dados somem ao reiniciar.
 - Endpoints de busca aceitam GET ou POST com JSON no corpo; muitos clientes ignoram body em GET, prefira POST se houver proxy que descarte o corpo.
-# Basic-CRUD-in-Java
